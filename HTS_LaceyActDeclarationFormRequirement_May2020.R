@@ -1,7 +1,7 @@
 # Code to analyze Lacey Act declaration form requirements in relation to US import data, by value 
 # Simeone Consulting, LLC
 # May 2020
-# Funding Timeline: Simeone Consulting, LLC initiated and partially completed this project on their own time in January 2020, 
+# Funding: Simeone Consulting, LLC initiated and partially completed this project on their own time in January 2020, 
 # and in May 2020, World Wildlife Fund (WWF) and Environmental Investigation Agency (EIA) co-jointly 
 # dedicated time for completion of the code. 
 #
