@@ -144,7 +144,7 @@ htstradedata <- htstradedata %>%
   mutate(dec_req = ifelse(substr(HTS10, 1, 8) %in% exclusions$HTS_Codes, "Declaration Form Not Required", dec_req)) %>%
   select(-ExclusionsNoDecReq)
 
-# mark everything in ch 44 and 6 hts6 codes in ch 94 as exclusively wood
+# mark everything in ch 44, 47, 48, and 6 hts6 codes in ch 94 as exclusively wood/wood fiber
 htstradedata <- htstradedata %>%
   mutate(ExclusivelyContainsWood = ifelse(HTS2 == "44" | HTS2 == "47" | HTS2 == "48", 1, ExclusivelyContainsWood),
          ExclusivelyContainsWood = ifelse(HTS6 == "940161" | HTS6 == "940169"  | HTS6 == "940330" |
