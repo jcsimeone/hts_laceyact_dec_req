@@ -2,8 +2,8 @@
 # Simeone Consulting, LLC
 # May 2020
 # Funding: Simeone Consulting, LLC initiated and partially completed this project on their own time in January 2020, 
-# and in May 2020, World Wildlife Fund (WWF) and Environmental Investigation Agency (EIA) co-jointly 
-# dedicated time for completion of the code. 
+# and in May 2020, World Wildlife Fund (WWF) and Environmental Investigation Agency (EIA) co-jointly funded Simeone Consulting, LLC 
+# for dedicated time to complete the code 
 #
 #
 library(tidyr)
